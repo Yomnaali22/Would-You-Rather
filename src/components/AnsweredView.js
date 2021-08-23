@@ -51,7 +51,6 @@ class AnsweredView extends Component {
 
 function mapStateToProps(statetree) {
   return {
-    //turn the users object properties into an array and access the users obeject with the array item
     statetree: statetree,
   };
 }
